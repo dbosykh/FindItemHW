@@ -1,1 +1,5 @@
 node_modules/
+HeadlessLoginTest.cy.js
+Homework.cy.js
+orderTest.cy.js
+registarationTest.cy.js
