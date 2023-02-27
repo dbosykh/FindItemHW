@@ -3,7 +3,7 @@ import {loginViaUi}  from '../support/helper';
 
 it('Order', () => {
 
-    loginViaUi();
+    loginViaUi(user);
 
     cy.log('**Choose product**');
     cy.get('.nav-pills.categorymenu').children('li').eq(2).click();
